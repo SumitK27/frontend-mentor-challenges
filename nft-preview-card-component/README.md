@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [GitHub](https://github.com/SumitK27/frontend-mentor/)
--   Live Site URL: [Test My Code](https://testmycode.ga/frontend-mentor/nft-preview-card-component/)
+-   Live Site URL: [Github Pages](https://sumitk27.github.io/frontend-mentor-challenges/nft-preview-card-component/)
 
 ## My process
 
