@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: "Outfit", sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin: 4rem 2rem;
+}
+
+.card__container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 22rem;
+}
+
+.card__image img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.card__description {
+    color: hsl(215, 23%, 44%);
+}
+
+.card__cost-days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+}
+
+.card__cost {
+    color: hsl(178, 100%, 50%);
+}
+
+.card__days {
+    color: hsl(215, 51%, 72%);
+}
+
+.card__cost,
+.card__days {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card__cost img,
+.card__days img {
+    margin-right: 0.25rem;
+}
+
+.card__creator {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.75rem;
+}
+
+.card__creator span {
+    color: hsl(216, 25%, 46%);
+}
+
+.card__avatar {
+    width: 2.5rem;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin: 1em 0;
+    padding: 0;
+}
